@@ -1,0 +1,56 @@
+/dev/mali0                0666   system     system
+/dev/ion                  0666   system     graphics
+/dev/ump                  0666   system     graphics
+/dev/fimg2d               0666   system     graphics
+/dev/s3c-mfc              0660   media      graphics
+/dev/s3c-mem              0660   system     system
+/dev/video0               0666   system     system
+/dev/video1               0666   system     system
+/dev/video2               0666   system     system
+/dev/video3               0666   system     system
+/dev/video11              0660   system     system
+/dev/video12              0777   system     system
+/dev/video16              0660   system     system
+/dev/video20              0660   system     system
+/dev/fimg2d4x             0660   system     graphics
+/dev/i2c-2                0660   system     system
+/dev/CEC                  0660   system     system
+/dev/HPD                  0660   system     system
+/dev/pmem_gpu1            0660   system     graphics
+/dev/i2c-0                0660   system     system
+/dev/i2c-9                0660   system     system
+
+# ULP Audio
+/dev/srp                  0660   system     audio
+/dev/srp_ctrl             0660   system     audio
+
+#codewalker
+#for gps
+/dev/ttyACM0	0666	gps		gps
+/dev/ttyUSB0	0666	gps		gps
+# rda_test
+/dev/rp_bt_dev            0777   bluetooth   bluetooth
+/dev/ttySAC*              0666   system     system
+
+# for UVC WEBCAM
+/dev/video4               0666   system     camera
+/dev/video5               0666   system     camera
+/dev/video6               0666   system     camera
+/dev/video7               0666   system     camera
+/dev/video8               0666   system     camera
+/dev/video9               0666   system     camera
+
+#for Kinect
+/dev/bus/usb/001/001	0777	root	usb
+/dev/bus/usb/001/002	0777	root	usb
+/dev/bus/usb/001/003	0777	root	usb
+/dev/bus/usb/001/004	0777	root	usb
+/dev/bus/usb/001/005	0777	root	usb
+/dev/bus/usb/001/006	0777	root	usb
+/dev/bus/usb/001/007	0777	root	usb
+/dev/bus/usb/001/008	0777	root	usb
+/dev/bus/usb/001/009	0777	root	usb
+/dev/bus/usb/001/010	0777	root	usb
+
+#3G Modem
+/dev/ttyUSB*	0666	radio	radio	
